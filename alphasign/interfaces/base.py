@@ -1,10 +1,10 @@
 import time
 
-from alphasign import constants
-from alphasign import packet
+from .. import constants
+from .. import packet
 
-import alphasign.string
-import alphasign.text
+from .. import string
+from .. import text
 
 
 class BaseInterface(object):
