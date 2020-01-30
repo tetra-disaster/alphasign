@@ -1,5 +1,5 @@
 from . import constants
-from . import datetime
+import datetime
 from .packet import Packet
 
 
